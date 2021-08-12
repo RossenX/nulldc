@@ -1,0 +1,5 @@
+/nulldc/WorkDir
+/nulldc/obj
+*.VC.opendb
+*.VC.db
+.vs

@@ -1,0 +1,17 @@
+﻿  SDLnet.c
+d:\vs_projects\nulldc\sdl2_net\SDL_net.h(27): warning C4005: 'TCP_NODELAY': macro redefinition
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h(440): note: see previous definition of 'TCP_NODELAY'
+  SDLnetselect.c
+d:\vs_projects\nulldc\sdl2_net\SDL_net.h(27): warning C4005: 'TCP_NODELAY': macro redefinition
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h(440): note: see previous definition of 'TCP_NODELAY'
+  SDLnetTCP.c
+d:\vs_projects\nulldc\sdl2_net\SDL_net.h(27): warning C4005: 'TCP_NODELAY': macro redefinition
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h(440): note: see previous definition of 'TCP_NODELAY'
+  SDLnetUDP.c
+d:\vs_projects\nulldc\sdl2_net\SDL_net.h(27): warning C4005: 'TCP_NODELAY': macro redefinition
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock.h(440): note: see previous definition of 'TCP_NODELAY'
+..\SDLnetUDP.c(226): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+     Creating library D:\VS_Projects\nulldc\SDL2_net\VisualC\\Win32\Release\SDL2_net.lib and object D:\VS_Projects\nulldc\SDL2_net\VisualC\\Win32\Release\SDL2_net.exp
+  SDL_net.vcxproj -> D:\VS_Projects\nulldc\SDL2_net\VisualC\\Win32\Release\SDL2_net.dll
+  SDL_net.vcxproj -> D:\VS_Projects\nulldc\SDL2_net\VisualC\\Win32\Release\SDL2_net.pdb (Full PDB)

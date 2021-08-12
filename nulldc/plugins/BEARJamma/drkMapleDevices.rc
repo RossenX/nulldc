@@ -1,0 +1,262 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include <windows.h>
+#define IDC_STATIC -1
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (Ireland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENI)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_EIRE
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 427, 218
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NAOMI-BEARPLAY"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Keyboard",IDC_CONT,51,23,141,8
+    CONTROL         "",IDC_PORTTAB,"SysTabControl32",0x0,7,8,306,12
+    PUSHBUTTON      "UP",IDC_NAOMI_UP_KEY,49,61,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "LEFT",IDC_NAOMI_LEFT_KEY,20,91,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "RIGHT",IDC_NAOMI_RIGHT_KEY,79,91,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "DOWN",IDC_NAOMI_DOWN_KEY,49,121,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BTN0_KEY,129,91,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "1",IDC_NAOMI_BTN1_KEY,159,91,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "4",IDC_NAOMI_BTN4_KEY,159,122,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "2",IDC_NAOMI_BTN2_KEY,190,91,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "5",IDC_NAOMI_BTN5_KEY,190,122,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "3",IDC_NAOMI_BTN3_KEY,129,122,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "START",IDC_NAOMI_START_KEY,144,31,30,30,BS_FLAT | NOT WS_TABSTOP
+    CTEXT           "~[STATUS]~",IDC_STATUS,52,167,240,18
+    DEFPUSHBUTTON   "OK",IDOK,149,186,50,25
+    PUSHBUTTON      "COIN",IDC_NAOMI_COIN_KEY,175,31,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "SERVICE",IDC_NAOMI_SERVICE_KEY_1,255,59,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "TEST",IDC_NAOMI_TEST_KEY_1,285,59,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "SV2",IDC_NAOMI_SERVICE_KEY_2,255,89,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "T2",IDC_NAOMI_TEST_KEY_2,285,89,30,30,BS_FLAT | NOT WS_TABSTOP
+    LTEXT           "Controller:",IDC_STATIC,10,23,40,8
+    CTEXT           "UP",IDC_STATIC,53,53,24,8
+    CTEXT           "1            2            3",IDC_STATIC,130,82,89,8
+    CTEXT           "4            5            6",IDC_STATIC,127,154,89,8
+    CTEXT           "START     COIN",IDC_STATIC,146,61,56,8
+    CTEXT           "DOWN",IDC_STATIC,52,152,24,8
+    CTEXT           "LEFT",IDC_STATIC,22,122,24,8
+    CTEXT           "RIGHT",IDC_STATIC,81,122,24,8
+    CTEXT           "SERVICE2   TEST2",IDC_STATIC,254,119,60,8
+    CTEXT           "SERVICE   TEST",IDC_STATIC,255,50,60,8
+    PUSHBUTTON      "0",IDC_NAOMI_BC_03,329,17,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_14,359,17,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_25,389,17,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_012,329,47,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_345,359,47,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_01,329,77,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_12,359,77,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_34,329,107,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "0",IDC_NAOMI_BC_45,359,107,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "REC",IDC_NAOMI_REC,280,137,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "PLAYBACK",IDC_NAOMI_PLAYBACK,317,146,30,30,BS_FLAT | NOT WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 420
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 211
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // English (Ireland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Greek (Greece) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ConfigKeys DIALOGEX 0, 0, 461, 255
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BEARJamma Controller Key config"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_PORTTAB,"SysTabControl32",0x0,7,8,332,12
+    PUSHBUTTON      "A UP",IDC_BUTTON16,53,50,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D2 UP",IDC_BUTTON15,302,173,30,30,BS_FLAT | NOT WS_VISIBLE
+    PUSHBUTTON      "A LEFT",IDC_BUTTON18,23,80,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D2 LEFT",IDC_BUTTON12,332,173,30,30,BS_FLAT | NOT WS_VISIBLE
+    PUSHBUTTON      "A Right",IDC_BUTTON19,83,80,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D2 RIGHT",IDC_BUTTON13,362,173,30,30,BS_FLAT | NOT WS_VISIBLE
+    PUSHBUTTON      "A DOWN",IDC_BUTTON17,53,110,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D2 DOWN",IDC_BUTTON14,392,173,30,30,BS_FLAT | NOT WS_VISIBLE
+    PUSHBUTTON      "D UP",IDC_BUTTON5,52,151,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D LEFT",IDC_BUTTON7,22,180,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "LEFT SLIDER",IDC_BUTTON20,192,35,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D RIGHT",IDC_BUTTON8,82,181,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "RIGHT SLIDER",IDC_BUTTON21,252,35,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "D DOWN",IDC_BUTTON6,52,210,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "Y BUTTON",IDC_BUTTON10,222,73,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "X BUTTON",IDC_BUTTON11,193,102,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "Z BUTTON",IDC_BUTTON9,162,35,30,22,BS_FLAT
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON2,252,102,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "C BUTTON",IDC_BUTTON1,281,35,30,22,BS_FLAT
+    PUSHBUTTON      "A BUTTON",IDC_BUTTON3,222,132,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "START BUTTON",IDC_BUTTON4,151,160,30,30,BS_FLAT | NOT WS_TABSTOP
+    CTEXT           "~[STATUS]~",IDC_STATUS,184,205,116,18,0,WS_EX_TRANSPARENT
+    DEFPUSHBUTTON   "OK",IDOK,227,224,50,21
+    LTEXT           "Controller:",IDC_STATIC,10,23,40,8
+    LTEXT           "Keyboard",IDC_CONT,45,23,141,8,0,WS_EX_TRANSPARENT
+    GROUPBOX        "D-PAD",IDC_STATIC,21,145,95,97
+    GROUPBOX        "Analog Stick",IDC_STATIC,21,40,94,102
+    CTEXT           "Start",IDC_STATIC,146,192,40,8
+    CTEXT           "A",IDC_STATIC,230,163,14,8
+    CTEXT           "B",IDC_STATIC,283,112,14,8
+    CTEXT           "X",IDC_STATIC,179,113,14,8
+    CTEXT           "Y",IDC_STATIC,230,64,14,8
+    CTEXT           "L",IDC_STATIC,200,27,14,8
+    CTEXT           "R",IDC_STATIC,260,27,14,8
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON23,393,32,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON24,423,32,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON25,363,62,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON26,393,62,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "C BUTTON",IDC_BUTTON22,363,32,30,30,BS_FLAT
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON27,363,92,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON28,393,92,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON29,363,122,30,30,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "B BUTTON",IDC_BUTTON30,393,122,30,30,BS_FLAT | NOT WS_TABSTOP
+    CTEXT           "C",IDC_STATIC,173,57,8,8
+    CTEXT           "Z",IDC_STATIC,292,57,8,8
+END
+
+IDD_LCD DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW | WS_EX_APPWINDOW
+CAPTION "VMU STUFF"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ConfigKeys, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 454
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 245
+    END
+
+    IDD_LCD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ConfigKeys AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include <windows.h>\r\n"
+    "#define IDC_STATIC -1\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Greek (Greece) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
